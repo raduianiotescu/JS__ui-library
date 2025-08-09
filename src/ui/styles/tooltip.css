@@ -1,0 +1,22 @@
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 9999;
+}
+
+.tooltip.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-message] {
+  cursor: pointer;
+}
