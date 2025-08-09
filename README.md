@@ -56,12 +56,6 @@ Renders buttons with ripple effect. Variants: `primary`, `secondary`.
 <button data-button data-variant="secondary">Click Me</button>
 ```
 
-**JS:**
-
-```js
-new Button();
-```
-
 ---
 
 ### Dialog
@@ -93,12 +87,6 @@ Modal dialog with open/close support triggered by buttons.
 </div>
 ```
 
-**JS:**
-
-```js
-new Dialog();
-```
-
 ---
 
 ### Dropdown
@@ -120,12 +108,6 @@ Toggleable dropdown menu.
 </div>
 ```
 
-**JS:**
-
-```js
-new Dropdown();
-```
-
 ---
 
 ### Tooltip
@@ -143,10 +125,4 @@ Shows a tooltip message on hover.
 >
   More info
 </div>
-```
-
-**JS:**
-
-```js
-new Tooltip();
 ```
