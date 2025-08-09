@@ -52,6 +52,8 @@ Include the bundled script in your HTML:
 
 ### Button
 
+<img src="public/assets/button.png" height=100px />
+
 Renders buttons with ripple effect. Variants: `primary`, `secondary`.
 
 **HTML:**
@@ -70,6 +72,8 @@ new Button();
 ---
 
 ### Dialog
+
+<img src="public/assets/dialog.png" height=150px />
 
 Modal dialog with open/close support triggered by buttons.
 
@@ -106,6 +110,8 @@ new Dialog();
 
 ### Dropdown
 
+<img src="public/assets/dropdown.png" height=200px />
+
 Toggleable dropdown menu.
 
 **HTML:**
@@ -130,6 +136,8 @@ new Dropdown();
 ---
 
 ### Tooltip
+
+<img src="public/assets/tooltip.png" height=150px />
 
 Shows a tooltip message on hover.
 
