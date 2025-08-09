@@ -33,13 +33,6 @@ npm run serve
 
 ## Usage
 
-Import components and styles in your entry JS file (`src/index.js`):
-
-```js
-import Tooltip from "./ui/tooltip.js";
-import "./ui/styles/tooltip.css";
-```
-
 Include the bundled script in your HTML:
 
 ```html
